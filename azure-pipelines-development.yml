@@ -1,0 +1,81 @@
+# THIS PIPELINE IS TRIGGERED WHEN A MERGE IS MADE INTO THE DEVELOPMENT BRANCH
+trigger: 
+- development
+
+pool:
+  vmImage: 'windows-2022'
+
+name: 'Set dynamically'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+  # BECAUSE WE DO NOT NECESSARILY KNOW WHAT OUT NEXT RELEASE VERSION NUMBER IS, 
+  # DURING THE DEVELOPMENT STAGE WE ARE USING A BUILD NUMBERING SYSTEM IN THE FORMAT OF 
+  # 'YEAR.MONTH.DATE.REVIONS-FOR-THAT-DAY', IN ORDER TO LET TESTERS KNOW HOW RECENT THE 
+  # BUILD THEY ARE ACCESING IS.
+  buildNumber: 'Will be set dynamically'
+
+steps:
+
+- task: NuGetToolInstaller@1
+  displayName: Acquiring NuGet
+
+- task: NuGetCommand@2
+  displayName: Restoring NuGet Packages
+  inputs:
+    restoreSolution: '$(solution)'
+
+# - task: PowerShell@2
+#   displayName: 'Preparing Build Number'
+#   inputs:
+#     targetType: 'inline'
+#     script: |
+#       $currentDate = $(Get-Date)
+#       $year = $currentDate.Year
+#       $month = $currentDate.Month
+#       $day = $currentDate.Day
+#       Write-Host $currentDate
+#       Write-Host $env:revision
+#       Write-Host "##vso[task.setvariable variable=buildNumber]$year.$month.$day.$env:revision"
+
+- task: PowerShell@2
+  displayName: 'Preparing Build Number'
+  inputs:
+    targetType: 'inline'
+    script: |
+      $currentDate = $(Get-Date)
+      Write-Host $currentDate
+      $year = $currentDate.Year
+      $month = $currentDate.Month
+      $day = $currentDate.Day
+      $hour = $currentDate.Hour
+      $minute = $currentDate.Minute
+      Write-Host "##vso[task.setvariable variable=buildNumber]$year.$month.$day.$hour$minute"
+
+- task: PowerShell@2
+  displayName: Preparing Build Name
+  inputs:
+    targetType: 'inline'
+    script: |
+      [string] $buildName = "$(buildNumber)_$(Build.SourceBranchName)_$(Build.BuildId)"
+      Write-Host "Setting the name of this build to '$buildName'."
+      Write-Host "##vso[build.updatebuildnumber]$buildName"
+
+- task: VSBuild@1
+  displayName: Building & Publishing
+  inputs:
+    solution: '$(solution)'
+    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:Version=$(buildNumber)'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: VSTest@2
+  displayName: Running Unit Tests
+  inputs:
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: PublishBuildArtifacts@1
+  displayName: Publishing Build Artifact

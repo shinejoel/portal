@@ -1,0 +1,54 @@
+# THIS PIPELINE IS TRIGGERED WHEN A MERGE IS MADE INTO THE MAIN BRANCH
+trigger: 
+- main
+
+pool:
+  vmImage: 'windows-2022'
+
+name: 'Set dynamically in a bellow task'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+  # MANUALLY ADJUST THE MAJOR-MINOR VERSION NUMBER AS NEEDED FOR SEMANTIC VERSIONING.
+  version.MajorMinor: '1.1'
+  # REVISION IS AUTOMATICALLY INCREMENTED WITH EVERY BUILD
+  version.Revision: $[counter(variables['version.MajorMinor'], 0)]
+  versionNumber: '$(version.MajorMinor).$(version.Revision)'
+
+steps:
+
+- task: NuGetToolInstaller@1
+  displayName: Acquiring NuGet
+
+- task: NuGetCommand@2
+  displayName: Restoring NuGet Packages
+  inputs:
+    restoreSolution: '$(solution)'
+
+- task: PowerShell@2
+  displayName: Preparing Build Name
+  inputs:
+    targetType: 'inline'
+    script: |
+      [string] $buildName = "$(versionNumber)_$(Build.SourceBranchName)_$(Build.BuildId)"
+      Write-Host "Setting the name of this build to '$buildName'."
+      Write-Host "##vso[build.updatebuildnumber]$buildName"
+
+- task: VSBuild@1
+  displayName: Building & Publishing
+  inputs:
+    solution: '$(solution)'
+    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:Version=$(versionNumber)'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: VSTest@2
+  displayName: Running Unit Tests
+  inputs:
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: PublishBuildArtifacts@1
+  displayName: Publishing Build Artifact
