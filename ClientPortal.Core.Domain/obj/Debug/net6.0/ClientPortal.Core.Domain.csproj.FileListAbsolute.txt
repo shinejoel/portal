@@ -1,0 +1,48 @@
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.deps.json
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.pdb
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.AssemblyInfo.cs
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\refint\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.pdb
+C:\Users\SWaniko\source\repos\BDO%20Client%20Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ref\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.deps.json
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.pdb
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.AssemblyInfo.cs
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\refint\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.pdb
+C:\Users\SWaniko\source\repos\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ref\ClientPortal.Core.Domain.dll
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.deps.json
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.dll
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.pdb
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.AssemblyInfo.cs
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.dll
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\refint\ClientPortal.Core.Domain.dll
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.pdb
+C:\Users\chaki\OneDrive\Bureau\Work\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ref\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.deps.json
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\bin\Debug\net6.0\ClientPortal.Core.Domain.pdb
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.AssemblyInfo.cs
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\refint\ClientPortal.Core.Domain.dll
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ClientPortal.Core.Domain.pdb
+C:\Users\SWaniko\Downloads\BDO Client Portal\ClientPortal.Core.Domain\obj\Debug\net6.0\ref\ClientPortal.Core.Domain.dll

@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "ClientPortal.Core.Application": {
+      "commandName": "Project"
+    }
+  }
+}

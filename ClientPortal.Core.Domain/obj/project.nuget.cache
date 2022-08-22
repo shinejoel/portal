@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "cmw6I5NbqsHJnV4IcMPbruippi1UVLcyuiJ5JckCK3Lk6l6cZo3oeVLRt5bVBjJFgmp2plnuDRDtdpPt+haXxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Domain\\ClientPortal.Core.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.28\\microsoft.aspnetcore.nodeservices.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.1.28\\microsoft.aspnetcore.spaservices.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.28\\microsoft.extensions.configuration.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.28\\microsoft.extensions.configuration.abstractions.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.28\\microsoft.extensions.configuration.binder.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.28\\microsoft.extensions.dependencyinjection.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.28\\microsoft.extensions.dependencyinjection.abstractions.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.logging\\3.1.28\\microsoft.extensions.logging.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.28\\microsoft.extensions.logging.abstractions.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.28\\microsoft.extensions.logging.configuration.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.28\\microsoft.extensions.logging.console.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.options\\3.1.28\\microsoft.extensions.options.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.28\\microsoft.extensions.options.configurationextensions.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.28\\microsoft.extensions.primitives.3.1.28.nupkg.sha512",
+    "C:\\Users\\SWaniko\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
