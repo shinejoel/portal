@@ -1,0 +1,62 @@
+<div class="container">
+  <div class="top-header">
+    <p class="font-weight-bold welcome"> <strong>Client Portal</strong> Admin Tool</p>
+
+  </div>
+
+
+
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="list-group" >
+
+        <table>
+          <thead>
+            <tr>
+              <th><a  class="list-group-item active-header">
+                Select Portal
+              </a></th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let task of tasks">
+            <tr>
+              <td>
+                <a href="#" class="list-group-item">{{task.value}}</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+  <div class="col-sm-7">
+    <table class="table" >
+      <thead >
+        <tr class="table-header" >
+          <th scope="col"><mat-checkbox  (change)="selectAllChanged($event)"></mat-checkbox></th>
+          <th scope="col">Project Name</th>
+          <th scope="col">Reference ID</th>
+
+        </tr>
+      </thead>
+      <tbody
+      *ngFor="let task of tasks"
+      [(ngModel)]="task.completed"
+      >
+        <tr>
+          <th><mat-checkbox></mat-checkbox></th>
+          <td>{{task.value}}</td>
+          <td>{{task.value}}</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <div class="col-sm-2">
+    <p><a class="btn btn-main btn-lg" routerLink="/home" role="button">Add As Admin<mat-icon>add</mat-icon></a></p>
+    <p><a class="btn btn-main btn-lg" routerLink="/home" role="button">Add As User<mat-icon>add</mat-icon></a></p>
+
+  </div>
+  </div>
+</div>

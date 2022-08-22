@@ -1,0 +1,76 @@
+
+<div class="container">
+  <div class="top-header">
+    <p class="font-weight-bold welcome">Add <strong>Multiple Portal </strong>User</p>
+
+  </div>
+
+
+
+<div class="row">
+  <div class="col-sm-7">
+    <div class="input-group">
+      <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+      <button type="button" class="btn btn-outline-primary">search</button>
+    </div>
+  </div>
+
+
+</div>
+
+  <div class="row">
+
+<div class="col-sm-2" >
+    <mat-form-field>
+      <mat-select placeholder="Select User Group"  required>
+        <mat-option>--</mat-option>
+        <mat-option *ngFor="let animal of usergroup" [value]="animal">
+          {{animal.name}}
+        </mat-option>
+      </mat-select>
+      <mat-error *ngIf="userGroupControl.hasError('required')">Please choose a User Group</mat-error>
+      <mat-hint>{{userGroupControl.value}}</mat-hint>
+    </mat-form-field>
+  </div>
+  <div class="col-sm-2" >
+    <mat-form-field>
+      <mat-select placeholder="Select User"  required>
+        <mat-option>--</mat-option>
+        <mat-option *ngFor="let animal of usergroup" [value]="animal">
+          {{animal.name}}
+        </mat-option>
+      </mat-select>
+      <mat-error *ngIf="userGroupControl.hasError('required')">Please choose an animal</mat-error>
+      <mat-hint>{{userGroupControl.value}}</mat-hint>
+    </mat-form-field>
+  </div>
+
+  <div class="col-12">
+    <table class="table" >
+      <thead >
+        <tr class="table-header" >
+          <th scope="col"></th>
+          <th scope="col">Project ID</th>
+          <th scope="col">Project Name</th>
+          <th scope="col">Project Reference ID</th>
+
+        </tr>
+      </thead>
+      <tbody
+     >
+        <tr>
+          <th><mat-checkbox></mat-checkbox></th>
+          <td>Test1</td>
+          <td>Test2</td>
+          <td>Test2</td>
+
+        </tr>
+
+
+      </tbody>
+    </table>
+  </div>
+
+  </div>
+</div>
+

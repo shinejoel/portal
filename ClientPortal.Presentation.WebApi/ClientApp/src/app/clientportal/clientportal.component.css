@@ -1,0 +1,24 @@
+.top-header{
+  height: 200px;
+}
+.welcome{
+line-height: 55px;
+  font-size: 45px;
+  width: 60%;
+  border-radius: 10px;
+}
+.table{
+  width: 60%;
+}
+.active-header{
+  background-color: #ED1A3B;
+  color: white;
+}
+
+.table-header{
+  background-color: #ED1A3B;
+  color: white;
+}
+.table{
+  border: 0.5px solid rgb(231, 231, 231);
+}

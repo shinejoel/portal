@@ -1,0 +1,50 @@
+.logo{
+  text-align: center;
+
+}
+.logo-bdo{
+  width: 90%;
+  background-color: white;
+  border-radius: 5px;
+}
+.mat-divider{
+  border-top-width: 0.2px;
+  border-color: #4d4d4d;
+  margin-bottom: 10px;
+}
+
+
+.mat-icon{
+  vertical-align: center;
+  margin-right: 1rem;
+}
+
+.mat-list-item{
+  color: white !important;
+  font-size: 0.8rem;
+  height: 44px !important;
+  margin-bottom:4px ;
+  border-radius: 5px;
+
+}
+
+.mat-list-item-content{
+  border-radius: 5px;
+  margin: 0 8px;
+}
+.mat-list-item:hover{
+  border-radius: 5px;
+  background-color: #d2d9e9 !important;
+  color: #0d0f11 !important;
+
+}
+
+.list-item-active{
+  border-radius: 5px;
+  color: #0d0f11 !important;
+  background-color: #d2d9e9 !important;
+}
+
+list-group-item{
+  margin: 5px;
+}

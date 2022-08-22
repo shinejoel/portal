@@ -1,0 +1,462 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Presentation.WebApi\\ClientPortal.Presentation.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Application\\ClientPortal.Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Application\\ClientPortal.Core.Application.csproj",
+        "projectName": "ClientPortal.Core.Application",
+        "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Application\\ClientPortal.Core.Application.csproj",
+        "packagesPath": "C:\\Users\\SWaniko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SWaniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Domain\\ClientPortal.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Domain\\ClientPortal.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.28, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.28, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.28, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.Identity.Web.MicrosoftGraph": {
+              "target": "Package",
+              "version": "[1.25.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Domain\\ClientPortal.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Domain\\ClientPortal.Core.Domain.csproj",
+        "projectName": "ClientPortal.Core.Domain",
+        "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Domain\\ClientPortal.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\SWaniko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SWaniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Persistance\\ClientPortal.Infrastructure.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Persistance\\ClientPortal.Infrastructure.Persistance.csproj",
+        "projectName": "ClientPortal.Infrastructure.Persistance",
+        "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Persistance\\ClientPortal.Infrastructure.Persistance.csproj",
+        "packagesPath": "C:\\Users\\SWaniko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SWaniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Application\\ClientPortal.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Application\\ClientPortal.Core.Application.csproj"
+              },
+              "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Domain\\ClientPortal.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Domain\\ClientPortal.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Shared\\ClientPortal.Infrastructure.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Shared\\ClientPortal.Infrastructure.Shared.csproj",
+        "projectName": "ClientPortal.Infrastructure.Shared",
+        "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Shared\\ClientPortal.Infrastructure.Shared.csproj",
+        "packagesPath": "C:\\Users\\SWaniko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SWaniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Application\\ClientPortal.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Application\\ClientPortal.Core.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Presentation.WebApi\\ClientPortal.Presentation.WebApi.csproj": {
+      "version": "0.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Presentation.WebApi\\ClientPortal.Presentation.WebApi.csproj",
+        "projectName": "ClientPortal.Presentation.WebApi",
+        "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Presentation.WebApi\\ClientPortal.Presentation.WebApi.csproj",
+        "packagesPath": "C:\\Users\\SWaniko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Presentation.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SWaniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Application\\ClientPortal.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Core.Application\\ClientPortal.Core.Application.csproj"
+              },
+              "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Persistance\\ClientPortal.Infrastructure.Persistance.csproj": {
+                "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Persistance\\ClientPortal.Infrastructure.Persistance.csproj"
+              },
+              "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Shared\\ClientPortal.Infrastructure.Shared.csproj": {
+                "projectPath": "C:\\Users\\SWaniko\\Downloads\\BDO Client Portal\\ClientPortal.Infrastructure.Shared\\ClientPortal.Infrastructure.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.25.1, )"
+            },
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.7.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Sentry.AspNetCore": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

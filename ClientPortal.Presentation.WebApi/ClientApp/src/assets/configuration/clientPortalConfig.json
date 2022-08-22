@@ -1,0 +1,9 @@
+{
+  "apiUrl": "https://api.bdo.global/gpl-prvapi-acc-eur/v3/",
+  "clientId": "5d5ac884-7464-4f6b-8a78-aee64c0a329d",
+  "authority": "https://login.microsoftonline.com/44f4e7a6-4821-44d7-b286-cd90436c6975/",
+  "redirectUrl": "https://localhost:9001",
+  "postLogoutUrl": "https://localhost:9001/logout",
+  //"clientScope": "api://df4e545f-a64e-4dc0-9117-fb6b525a954d/BDOOutPerform",
+  "environment": "LOCAL"
+}
