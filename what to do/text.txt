@@ -1,0 +1,12 @@
+In other to run the application you need to run the backend and set ClientPortal.presentation.webapi as startup and then run the frontend angular 
+
+you need to display the list of project (This is how i test) https://localhost:9001/api/v1/Project/GetAllProjects
+on the table only show 50 project at a time with a pagination 
+
+you need to change the select user to something more user friendly here you need to populate it with the list of users from the api (https://localhost:9001/api/v1/User/GetMemberFirmUsers)
+
+the next is POST with this we need to pass a Json with the selected data from the table and dropdowns into the JSON that will be sent to the post request on click of button  
+
+the search bar should be able to search based on a part of the project Reference ID name example the ID is (CLN_AUD_2019)we should be able to search AUD from that text and sort the table to only show that 
+
+add the select tickbox to be able to select the project or select all projects that will be passed to the JSON  

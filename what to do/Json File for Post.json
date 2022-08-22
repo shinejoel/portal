@@ -1,0 +1,26 @@
+{
+    "memberFirmId": 14,
+	"listProjects":[
+		{ 
+		"clientId": 86097,
+    		"projectId": 3262
+		}
+	],
+   
+    "usersData": [
+        {
+            "groupName": "BDO Admin User",
+            "userData": [{
+                    "firstName": "Shine",
+                    "lastName": "Waniko",
+                    "displayName": "Shine Waniko",
+                    "emailAddress": "swaniko@bdo.co.za",
+                    "UPN": "",
+                    "isNavision": false,
+                    "NavisionUserKey": ""
+                }
+               
+            ]
+        }
+    ]
+}
